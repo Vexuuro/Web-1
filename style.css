@@ -1,0 +1,102 @@
+/* atur gaya dasar untuk body */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* navbar styling */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* logo styling */
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* navigation link styling */
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link li {
+  margin: 0;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.feature-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 30%;
+  max-width: 300px;
+}
+
+.feature-item h3 {
+  color: #ff7e5f;
+  margin-bottom: 10px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.testimonials-item {
+  margin: 20px auto;
+  max-width: 600px;
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px;
+  font-size: 0.9em;
+}
